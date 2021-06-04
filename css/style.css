@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B91450;
+}
+
+.contained {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
