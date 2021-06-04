@@ -25,3 +25,9 @@ genera.addEventListener("click", function (){
 
     document.getElementById("viewTicket").className += " show";
 })
+
+var annulla = document.getElementById("annulla");
+annulla.addEventListener("click", function (){
+    document.getElementById("buyData").reset();
+    document.getElementById("viewTicket").classList.replace("show", "hidden");
+})
