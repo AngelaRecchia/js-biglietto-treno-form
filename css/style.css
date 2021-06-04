@@ -27,13 +27,15 @@ label {
 
 #buyData {
     background-color: white;
+    box-shadow: 6px 6px 15px 10px rgb(0 0 0 / 20%);
+    border-radius: 15px;
 }
 
 input, select {
     border: 1.5px solid #B91450;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 35px;
-    margin: 10px 20px;
+    margin: 10px 25px;
 }
 
 .dataBox > * {
@@ -42,4 +44,11 @@ input, select {
 
 .dataBox {
     display: inline-block;
+}
+
+.btn {
+    background-color: lightgrey;
+    color: #B91450;
+    font-weight: bold;
+    margin: 0 10px;
 }
