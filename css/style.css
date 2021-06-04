@@ -14,7 +14,17 @@ body {
     margin: auto;
 }
 
-h1 {
+h2 {
     color: white;
     text-transform: uppercase;
+}
+
+#buyData {
+    background-color: white;
+}
+
+input, select {
+    border: 1.5px solid #B91450;
+    border-radius: 3px;
+    height: 35px;
 }
