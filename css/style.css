@@ -17,6 +17,12 @@ body {
 h2 {
     color: white;
     text-transform: uppercase;
+    margin: 20px 0;
+}
+
+label {
+    color: #B91450;
+    font-weight: 600;
 }
 
 #buyData {
@@ -27,4 +33,13 @@ input, select {
     border: 1.5px solid #B91450;
     border-radius: 3px;
     height: 35px;
+    margin: 10px 20px;
+}
+
+.dataBox > * {
+    display: block;
+}
+
+.dataBox {
+    display: inline-block;
 }

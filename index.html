@@ -16,13 +16,24 @@
 
         <div id="buyData" class="py-3">
 
-            <input type="text" id="name" class="text-center">
-            <input type="number" id="km" class="text-center">
-            <select id="eta">
-                <option value="minore">Minorenne</option>
-                <option value="maggiore">Maggiorenne</option>
-                <option value="over65">Over 65</option>
-            </select>
+            <div class="dataBox">
+                <label for="name">Nome e Cognome</label>
+                <input type="text" id="name" class="text-center">
+            </div>
+            
+            <div class="dataBox">
+                <label for="km">KM da percorrere</label>
+                <input type="number" id="km" class="text-center">
+            </div>
+            
+            <div class="dataBox">
+                <label for="eta">Fascia d'età</label>
+                <select id="eta">
+                    <option value="minore">Minorenne</option>
+                    <option value="maggiore">Maggiorenne</option>
+                    <option value="over65">Over 65</option>
+                </select>
+            </div>
 
         </div>
     </section>
